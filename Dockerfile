@@ -4,6 +4,5 @@ RUN pip3 install flask \
 RUN mkdir flask
 WORKDIR /flask
 COPY app.py .
-COPY .env .
 EXPOSE 82
 CMD ["python3","app.py"]
