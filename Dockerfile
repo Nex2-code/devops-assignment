@@ -5,5 +5,5 @@ RUN mkdir flask
 WORKDIR /flask
 COPY app.py .
 COPY .env .
-EXPOSE 80
+EXPOSE 82
 CMD ["python3","app.py"]

@@ -9,4 +9,4 @@ app = Flask(__name__)
 def index():
     display="Hello,World!! "+word
     return display 
-app.run(host='0.0.0.0', port=80)
+app.run(host='0.0.0.0', port=82)
